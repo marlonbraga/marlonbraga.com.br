@@ -1,0 +1,201 @@
+.img_formacao{
+	max-height:70px;
+	max-width:70px;
+	float: left;
+	margin: 10px 5px 0px 10px;
+}
+.inf_formacao{
+	vertical-align:middle;
+	height:80px;
+	border: 3px solid #333;
+	border-radius: 15px;
+	width:65%;
+	margin-top:2px;
+
+	color: #333;
+	font-weight: bold;
+	font-size: 15px;
+}
+.inf_formacao:hover{
+	border: 3px solid #459A22;
+}
+.inf_formacao_titulo{
+	text-align: left;
+	width: 50%;
+	float: left;
+	font-size: 19px;
+	margin: 10px 0px 0px 0px;
+}.inf_experiencia_titulo{
+	text-align: left;
+	width: 80%;
+	float: left;
+	font-size: 19px;
+	margin: 10px 0px 0px 0px;
+}
+.loading_bar{
+	border: 3px solid #333;
+	border-radius: 10px;
+	background-color: #DDD;
+	margin-right: 40px;
+	margin-top: 20px;
+	width:150px;
+	height: 30px;
+	float: right;
+}
+.loading_bar_level{
+	border: 1px solid #229744;
+	border-radius: 10px 0px 0px 10px;
+	border-style: hidden outset hidden hidden;
+	background: #459A22; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#67BC44, #459A22); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#67BC44, #459A22); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#67BC44, #459A22); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#67BC44, #459A22); /* Standard syntax (must be last) */
+
+	height:100%;
+	width: 80%;
+}
+.detalhes{
+	width: 63%;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: normal;
+	background-color: #F9FFF9;
+	color: #222;
+	border: 3px solid #222;
+	border-style: hidden double double double;
+}.detalhes2{
+	width: 97%;
+}
+
+.img_interesse{
+	max-width:100px;
+	float: none;
+	border-radius: 100%;
+	border: 3px solid #222;
+	background-color: #459A22;
+}.loading_bar_skills{
+	background-color:  #F0FFF0;
+	border: 2px solid #222;
+	width: 64px;
+	height: 18px;
+	border-radius: 4px;
+}.loading_bar_skills_level{
+	border: 1px solid #229744;
+	border-radius: 2px 0px 0px 2px;
+	border-style: hidden outset hidden hidden;
+	background: #459A22; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#67BC44, #459A22); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#67BC44, #459A22); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#67BC44, #459A22); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#67BC44, #459A22); /* Standard syntax (must be last) */
+
+	height:100%;
+	width: 80%;
+}.skills{
+	color: #222;
+	text-align: right;
+}.parceiros{
+	margin: 7.5%;
+	float:left;
+	width: 180px;
+}
+@media screen and (max-width: 20000px) {
+	.interesse_4x1{
+		display:block;
+	}.interesse_2x2{
+		display:none;
+	}.interesse_2x2_2{
+		display:none;
+	}.loading_bar_status{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.inf_formacao{
+		width:100%;
+	}.detalhes{
+		width:97%;
+	}.parceiros{
+		margin: 7.5% 5%;
+	}
+}
+@media screen and (max-width: 790px) {
+	.parceiros{
+		margin: 7.5% 3.5%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.interesse_4x1{
+		display:none;
+	}.interesse_2x2{
+		display:block;
+	}.interesse_2x2_2{
+		display:none;
+	}.inf_formacao_titulo{
+		font-size: 17px;
+	}.parceiros{
+		margin: 7.5% 1.5%;
+	}
+}
+@media screen and (max-width: 616px) {
+	.parceiros{
+		margin: 7.5% 5.0%;
+	}
+}
+@media screen and (max-width: 570px) {
+	.inf_formacao_titulo{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 537px) {
+	.parceiros{
+		margin: 7.5% 4%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.loading_bar{
+		width: 35%;
+		margin-right: 20px;
+	}.inf_experiencia_titulo{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 455px) {
+	.parceiros{
+		margin: 7.5% 25%;
+	}
+}
+@media screen and (max-width: 432px) {
+	.loading_bar{
+		margin-right: 10px;
+	}.inf_formacao_titulo{
+		font-size: 15px;
+	}.inf_experiencia_titulo{
+		font-size: 15px;
+		width: 70%;
+	}.loading_bar_status{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 390px) {
+	.interesse_4x1{
+		display:none;
+	}.interesse_2x2{
+		display:none;
+	}.interesse_2x2_2{
+		display:block;
+	}
+	.loading_bar{
+		width: 30%;
+		margin-right: 0px;
+	}.parceiros{
+		margin: 7.5% 20%;
+	}
+}
+@media screen and (max-width: 360px) {
+	.loading_bar_status{
+		font-size: 10px;
+	}
+}

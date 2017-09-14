@@ -1,0 +1,639 @@
+			@font-face {
+				
+				font-family: 'JosefinSlab';
+				src: url('fonts/StMarie-Thin-webfont.eot');
+				src: url('fonts/JosefinSlab-Regular.ttf') format('truetype');
+				
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'EBGaramond';
+				src: url('fonts/StMarie-Thin-webfont.eot');
+				src: url('fonts/EBGaramond08-Regular.ttf') format('truetype');
+				
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Syncopate';
+				src: url('fonts/StMarie-Thin-webfont.eot');
+				src: url('fonts/Syncopate-Regular.ttf') format('truetype');
+				
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Ubuntu-Regular';
+				src: url('fonts/Ubuntu-Regular.eot');
+				src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+				
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'Ubuntu-Light';
+				src: url('fonts/Ubuntu-Light.eot');
+				src: url('fonts/Ubuntu-Light.ttf') format('truetype');
+				
+				font-weight: normal;
+				font-style: normal;
+			}
+			body{
+				background-image: url("img/wallpaper.jpeg");
+				background-size: 100% 100%;
+				color: #FFF;
+				font-family: 'Ubuntu-Light';
+				font-size: 62.5%;
+				margin: 0px;
+			}.artigo{
+				width: 33%;
+			}.artigo, .artigoListado{
+				height: 10.5em;
+				margin: 0.5em auto 90px auto;
+				float: left;
+				font-size: 18px;
+				font-weight: bold;
+				color: black;
+
+				text-align: center;
+			}
+			.artigoListado{
+				float: left;
+				margin: 30px 5px 100px 5px;
+			}
+			.topic{
+				background-color: black;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 2.0em;
+				border: 0.15em solid #333;
+
+				font-weight: normal;
+				
+				vertical-align: bottom;
+				
+				margin-right: auto;
+    			margin-left: auto;
+
+				width: 17.0em;
+				height: 10.5em;
+
+				-webkit-transition-property: background-image; /* Safari */
+    			-webkit-transition-duration: 0.5s; /* Safari */
+				transition-property: background-image;
+			    transition-duration: 0.5s;
+			    transition-delay: 1.5s;
+			}
+			.topic:hover{
+				background-size: cover;
+			}
+
+			.topicOver{
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 2.0em;
+				padding: 8em 0% 0% 0%;
+
+				-webkit-transition-property: background-image; /* Safari */
+    			-webkit-transition-duration: 0.5s; /* Safari */
+    			-webkit-transition-delay: 2s; /* Safari */
+				transition-property: background-image;
+			    transition-duration: 0.5s;
+			    transition-delay: 0s;
+			}
+			.topicOver:hover{
+				background-image: url("img/vr_kinect/BLANK.png");
+			}
+
+			.descricao{
+				background-color: black;
+				border-radius: 0.0em 0.0em 2.0em 2.0em;
+				color: white;
+				padding: 0px 10px 0px 10px;
+				height: 2.75em;
+				opacity: 0.75;
+   				filter: alpha(opacity=93);
+   				font-size: 15px;
+   				
+			}
+
+			img{
+				max-width: 100%;
+			}
+			*, *:before, *:after {
+			   -webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			   box-sizing: border-box;
+			}
+			a{
+				color:black;
+				text-decoration: none;
+			}
+			a:hover{
+				color:#459A22;
+				text-decoration: none;
+			}
+			.resumo{
+				height:110px;
+				width:310px;
+				overflow-y:hidden;
+				font-size: 0.8em;
+				color: #000;
+			}
+			.space_dungeon{
+				width:35%;
+				float:left;
+				color: #222;
+				padding: 20px;
+			}
+			.uerj_gameficada{
+				width:35%;
+				float:right;
+				color: #222;
+				padding: 20px;
+			}
+			.logo_uerj{
+				width:100%;
+				position:relative;
+			}
+			.icon_link{
+				height:50px;
+				width:50px;
+				border: 0px solid #333;
+				border-radius: 30%;
+				margin-top: 50px;
+			}
+			.titulo{
+				margin: 0 0 0 43%;
+				padding-bottom:10px;
+				text-align: center;
+			}
+			.geral{
+				background-image: url("img/capa.png");
+				background-repeat: no-repeat;
+				/*//*/background-size: contain;
+
+				text-align: center;
+				margin: 0 auto;
+				max-width: 1024px;
+				min-width: 300px;
+				font-size: 1.8em;
+			}
+			.header{	
+				position: relative;
+				padding-bottom: 31.9%;
+				width:100%;
+				/*/height:229px;/*/
+				max-height: 230px;
+				color: white;
+				font-size: 1.8em;
+				float: left;
+				clear: left;
+			}
+			.background{
+			/*	background-color: black;
+				opacity: 0.92;
+   				filter: alpha(opacity=93);
+   				height: 25%;
+   				max-height: 200px;
+			*/	
+			}
+			.menu{
+				/*/background-color: gray;/*/
+				/*/opacity: 0.97;/*/
+				width:100%;
+				margin-top: -15px;
+				float: left;
+				clear: left;
+			}
+			.content{
+				/*/background-color: #DDD;/*/
+				max-width:1024px;
+				width:100%;
+				min-height: 829px;
+				padding-top: 20px;
+				margin: auto;
+				/*/float: left;/*/
+				clear: left;
+
+
+			}
+			.sobre,.sobre_baixo{
+				/*/opacity: 0.92;
+   				filter: alpha(opacity=93); /* For IE8 and earlier */
+				/*/background-color: #222;/*/
+				color: #000;
+				text-align: center;
+				
+				border: 2px solid #459A22;
+				margin: 1% 1% 1% 0%;
+				border-radius: 30px 30px 30px 30px;
+			}
+			.sobre:hover{
+				color: #000;
+				background-color: #F9FFF9;
+			}
+			.sobre{
+				
+				width:28%;
+				
+				float: left;
+				clear: none;
+			}
+			.inner_sobre{
+				/*background-color: black;
+				opacity: 0.9;
+   				filter: alpha(opacity=90); 
+   				*/padding-left: 10%;
+				padding-right: 10%;
+				padding-bottom: 5%;
+				font-size: 0.9em;
+			}
+			.sobreTexto{
+				text-align: justify;
+			}
+			.sobre_baixo {
+				display: none;
+				float:left;	
+				margin: 0%;
+				background-color: #FFF;
+				margin-bottom: -100px;
+			}
+			.follow{
+				text-align: center;
+				color: #fff;
+				width:33%;
+				height: 150px;
+				float: right;
+				clear: right;
+				padding-bottom: 20px;
+				/*/padding-top: 180px;/*/
+			}
+			.contato{
+				text-align: center;
+				color: #fff;
+				width:33%;
+
+				float: left;
+				clear: right;
+				padding-bottom: 20px;
+				/*/padding-top: 180px;/*/
+				padding-bottom: 80px;
+			}
+			.footer{
+				width:100%;
+				/*/background-color: rgba(0,0,0,0.75);/*/
+				padding: 100px 0px 70px 0px;
+				margin: 0px;
+				font-size: 1.8em;
+			}
+			.fotoPerfil{
+				border-radius: 100%;
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+
+
+
+
+			.button_menu{
+				width:24.5%;
+				height:50px;
+				float:left;
+				color: #333;
+				border: 3px groove #333;
+				border-radius: 10px; 
+				background-color: #FFF;
+				padding-top: 1.1%;
+				font-size: 1.2em;
+				font-weight: bold;
+				font-family: 'Syncopate';
+			}.button_menu:hover{
+				/*/opacity: 0.9;/*/
+				color: #FFF;
+				border: 3px groove #222;
+
+				background-color: #459A22;
+				background: #222; /* For browsers that do not support gradients */
+			    background: -webkit-linear-gradient(#67BC44, #459A22); /* For Safari 5.1 to 6.0 */
+			    background: -o-linear-gradient(#67BC44, #459A22); /* For Opera 11.1 to 12.0 */
+			    background: -moz-linear-gradient(#67BC44, #459A22); /* For Firefox 3.6 to 15 */
+			    background: linear-gradient(#67BC44, #459A22); /* Standard syntax (must be last) */
+			}
+
+
+
+			.button_content{
+				width:200px;
+				height:40px;
+				float:right;
+				color: #333;
+				border: 3px solid #333;
+				border-radius: 5px; 
+			/*/	background-color: #67BC44;/*/
+				padding-top: 6px;
+				font-size: 1.1em;
+				font-weight: normal;
+				font-family: 'Ubuntu-Regular';
+				margin: 15px 0px 30px 0px;
+			}.button_content:hover{
+				/*/opacity: 0.9;/*/
+				color: #FFF;
+				border: 3px solid #222;
+				background-color: #459A22;
+				
+				background: #459A22; /* For browsers that do not support gradients */
+			    background: -webkit-linear-gradient(#67BC44, #459A22); /* For Safari 5.1 to 6.0 */
+			    background: -o-linear-gradient(#67BC44, #459A22); /* For Opera 11.1 to 12.0 */
+			    background: -moz-linear-gradient(#67BC44, #459A22); /* For Firefox 3.6 to 15 */
+			    background: linear-gradient(#67BC44, #459A22); /* Standard syntax (must be last) */
+			}
+
+
+			.title_section{
+				margin: auto;
+				margin-top:: -50px;
+				/*/float:left;/*/
+				color:#459A22;/*/
+				color:#222;/*/
+				font-weight: bolder;
+				font-size: 1.5em;
+				
+			}
+
+
+			.imgButton_menu{
+				padding-top: 10px;
+				width:35px;
+				height:80%;
+			}
+			.img_news{
+				margin: auto;
+				max-height: 150px;
+
+			}
+			.Logoh1{
+				margin: 0.25em 0px 0em 0px;
+				font-family: 'Syncopate';
+				font-size: 1.4em;
+				color: #FFF;
+			}
+			.Logoh2{
+				margin: 0px;
+				font-weight: lighter;
+				font-family: 'Syncopate';
+				font-size: 0.62em;
+				color: #FFF;
+			/*/	font-family: 'JosefinSlab';
+				font-size: 1.2em;
+			/*/
+			}.Logoh4{
+				margin: 0px;
+				font-family: 'Syncopate';
+				font-size: 1.5em;
+				font-weight: bold;
+				color: #FFF;
+			}.Logoh5{
+				margin: 0px;
+				font-family: 'Syncopate';
+				font-size: 0.6em;
+				color: #AAA;
+			}div.dotaicon{
+				border-radius:100%;
+				border: 2px solid #333;
+				margin: 15px 8px 15px 8px;
+				float:left;
+			}div.plusicon{
+				float:left;
+			}img.dotaicon{
+				width:50px; height:50px;
+			}img.plusicon{
+				margin:25px 0px 10px 0px; width:30px; height:30px;
+			}
+			@media screen and (max-width: 950px) {
+				.header {
+				   font-size: 1.6em;
+				}
+			}
+			@media screen and (max-width: 900px) {
+				.header {
+					font-size: 1.5em;
+				}.menu {
+					width: 100%;
+				}.content {
+					width: 100%;
+					min-height: 0px;
+				}.sobre {
+					width: 100%;
+					display: none;
+				}.sobre_baixo {
+					display: block;
+				}.follow {
+					width: 100%;
+				}.contato {
+					width: 100%;
+				}
+
+				.space_dungeon{
+					width: 50%;
+				}.uerj_gameficada{
+					width: 50%;
+				}.footer{
+					padding-top: 180px;
+				}
+
+				.inf_formacao{
+					width:100%;
+				}.detalhes{
+					width:97%;
+				}
+			}
+			@media screen and (max-width: 950px) {
+				.artigo{
+					width: 50%;
+				}.artigo3{
+					width: 100%;
+				}.artigo6{
+					width: 100%;
+				}
+			}
+			@media screen and (max-width: 850px) {
+				.header {
+				   width: 100%;
+				   font-size: 1.4em;
+				   padding-bottom: 31.9%;
+				}
+			}
+			@media screen and (max-width: 800px) {
+				.menu {/*/
+				   font-size: 0.8em;
+				   padding-top: 1.5%;/*/
+				}
+			}
+			@media screen and (max-width: 750px) {
+				.header {
+				   width: 100%;
+				   font-size: 1.2em;
+				   padding-bottom: 20.9%;
+				}
+			}
+
+			@media screen and (max-width: 700px) {
+				.header {
+				   width: 100%;
+				   font-size: 1.1em;
+				   padding-bottom: 20.1%;
+				}.button_menu {
+				   font-size: 1.0em;
+				   padding-top: 1.9%;
+				}
+			}
+			@media screen and (max-width: 650px) {
+				.header {
+				   width: 100%;
+				   font-size: 1.0em;
+				   padding-bottom: 19.2%;
+				}div.dotaicon{
+					margin: 15px 5px 15px 5px;
+				}
+			}
+			@media screen and (max-width: 600px) {
+				.header {
+				   width: 100%;
+				   font-size: 0.9em;
+				   padding-bottom: 18.2%;
+				}.artigo{
+					width: 100%;
+				}div.dotaicon{
+					margin: 15px 1px 15px 1px;
+				}
+			}
+
+			@media screen and (max-width: 550px) {
+				.geral{
+					margin:0px;
+				}
+				.header {
+				   width: 100%;
+				   font-size: 1.5em;
+				   padding-bottom: 9%;
+				   background-color: rgba(0,0,0,0.75);
+				}.titulo{
+					margin: 0px;
+				}.space_dungeon{
+					width: 100%;
+				}.uerj_gameficada{
+					width: 100%;
+				}.menu{
+					margin-top: -0.5px;
+				}.button_menu {
+				   font-size: 0.8em;
+				   padding-top: 2.3%;
+				}
+				
+				
+				.fotoPerfil{
+
+				}
+			}
+
+			@media screen and (max-width: 500px) {
+				.header {
+					width: 100%;
+					font-size: 1.3em;
+				}
+			}
+			@media screen and (max-width: 450px) {
+				.header {
+					width: 100%;
+					font-size: 1.1em;
+				}.button_menu {
+					font-size: 0.7em;
+					padding-top: 3.5%;
+				}
+			}
+			@media screen and (max-width: 400px) {
+				.header {
+					width: 100%;
+					font-size: 0.9em;
+					
+				}
+			}
+			@media screen and (max-width: 380px) {
+				.header {
+					width: 100%;
+					font-size: 0.7em;
+					
+				}.button_menu {
+					font-size: 0.6em;
+					padding-top: 4.5%;
+				}
+			}
+			@media screen and (max-width: 350px) {
+				.button_menu {
+					font-size: 0.5em;
+					padding-top: 5.5%;
+				}
+			}
+
+
+
+hr {
+	border:none;
+	border-top:3px dotted #459A22;
+	height:1px;
+	margin-bottom:25px;
+	}
+	
+#tabs {
+	float:left;
+	width:100%;
+	background:#000;
+	font-size:93%;
+	line-height:normal;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("img/tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("img/tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#FFF;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
