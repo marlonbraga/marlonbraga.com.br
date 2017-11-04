@@ -112,6 +112,11 @@
 		font-size: 17px;
 	}
 }
+@media screen and (max-width: 1000px) {
+	.parceiros{
+		margin: 7.0% 5%;
+	}
+}
 @media screen and (max-width: 900px) {
 	.inf_formacao{
 		width:100%;
@@ -141,7 +146,7 @@
 }
 @media screen and (max-width: 616px) {
 	.parceiros{
-		margin: 7.5% 5.0%;
+		margin: 7.5% 30.0%;
 	}
 }
 @media screen and (max-width: 570px) {
@@ -151,7 +156,7 @@
 }
 @media screen and (max-width: 537px) {
 	.parceiros{
-		margin: 7.5% 4%;
+		margin: 7.5% 40%;
 	}
 }
 @media screen and (max-width: 480px) {

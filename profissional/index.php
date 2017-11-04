@@ -74,7 +74,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge;text/html;charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Marlon Braga</title>
-		<link rel="shortcut icon" href="img/office_work2.ico">
+		<link rel="shortcut icon" href="img/logo_Overreal.ico">
 		<link rel="stylesheet" href="styles.css">
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -134,7 +134,7 @@
 			            <div class="titulo" style="">
 			            	<p class='Logoh1'>MARLON BRAGA</p>
 			            	<p class='Logoh2'>- Desenvolvedor de software -</p>
-			            	<p class='Logoh5' style="margin-top:30px;">RV • RA • WEB • MOBILE</p>
+			            	<p class='Logoh5' style="margin-top:30px;">VR • AR • WEB • MOBILE</p>
 						</div>
 					</div>
 				</div>
@@ -158,13 +158,9 @@
 					<a href="#" class="a">
 						<div class="about sobre">
 							<div class="inner_sobre" >
-								<img src="img/Marlon.jpg" class="fotoPerfil"/>
+								<img src="img/MarlonBraga.png" class="fotoPerfil"/>
 								<p class="sobreTexto">
-									&emsp;Técnico em Informática e Bacharel em Ciência da Computação pela UERJ.
-									
-									É entusiasta da Realidade Virtual e Gameficação.
-									
-									Trabalha na YDreams Brasil desenvolvendo sistemas interativos. Hoje, continua explorando novos recursos e aplicações imersivas.
+								<iframe src="description.html" style="border:0px; width:100%"></iframe>
 								</p>
 							</div>
 						</div>
@@ -335,16 +331,12 @@
 					<div class="sobre_baixo">
 						<p>
 							<div style="width:50%; float:left; padding-left: 2%;">
-								<img src="img/Marlon.jpg" class="fotoPerfil"/>
+								<img src="img/MarlonBraga.png" class="fotoPerfil"/>
 							</div>
-							<div style="width:50%; float:right; padding: 5% 2% 0 2% ;">
+							<div class="sobre_baixo_description">
 								<p class="sobreTexto">
-								Técnico em Informática e Bacharel em Ciência da Computação pela UERJ.
-								
-								É entusiasta da Realidade Virtual e Gamificação.
-								
-								Trabalha na YDreams desenvolvendo sistemas interativos. Hoje, continua explorando novos recursos e aplicações imersivas.
-								</p>
+								<iframe src="description.html" style="border:0px; height:100%; width:100%;"></iframe>
+							</p>
 							</div>
 						</p>
 					</div>
@@ -398,9 +390,10 @@
 		                <a href="https://www.linkedin.com/in/marlonbraga" target="_blank"><img height="55px" width="50px" style="padding-top:10px; padding-right:5px;" src="img/in_icon.png"></a>
 		                <a href="https://www.facebook.com/marlon.braga.dev" target="_blank"><img height="55px" width="50px" style="padding-top:10px; padding-left:5px;" src="img/fb_icon.png"></a>
 		                <a href="https://twitter.com/Marlon_Braga0" style="margin-left: 4px;" target="_blank"><img height="55px" width="50px" style="padding-top:10px; padding-left:5px;" src="img/tw_icon2.png"></a>
-		            </div>  
-
-
+						<br>
+		                <a href="https://github.com/marlonbraga" style="margin-left: -4px;" target="_blank"><img height="55px" width="50px" style="padding-top:10px; padding-left:5px;" src="img/github_icon.png"></a>						
+						<a href="https://www.youtube.com/channel/UCHNWeE1DJ0HqoE9KrEx1agg" style="margin-left: 4px;" target="_blank"><img height="55px" width="50px" style="padding-top:10px; padding-left:5px;" src="img/youtube_icon.png"></a>
+		            </div>
 		            <div style='clear: both;'></div>
 		        </div>
 			</div>

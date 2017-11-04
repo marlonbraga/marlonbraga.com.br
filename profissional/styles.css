@@ -140,6 +140,8 @@
 				overflow-y:hidden;
 				font-size: 0.8em;
 				color: #000;
+				margin: auto;
+				margin-top: 15px;
 			}
 			.space_dungeon{
 				width:35%;
@@ -252,6 +254,7 @@
 			}
 			.sobreTexto{
 				text-align: justify;
+				height: 200px;
 			}
 			.sobre_baixo {
 				display: none;
@@ -259,6 +262,12 @@
 				margin: 0%;
 				background-color: #FFF;
 				margin-bottom: -100px;
+				width: 100%;
+			}
+			.sobre_baixo_description{
+				width:50%;
+				float:right;
+				padding: 5% 2% 0 2%;
 			}
 			.follow{
 				text-align: center;
@@ -353,7 +362,7 @@
 
 			.title_section{
 				margin: auto;
-				margin-top:: -50px;
+				margin-top: -50px;
 				/*/float:left;/*/
 				color:#459A22;/*/
 				color:#222;/*/
@@ -429,6 +438,8 @@
 					display: none;
 				}.sobre_baixo {
 					display: block;
+				}.sobre_baixo_description{
+					padding: 5% 10% 0 2%;
 				}.follow {
 					width: 100%;
 				}.contato {
@@ -498,7 +509,7 @@
 					margin: 15px 5px 15px 5px;
 				}
 			}
-			@media screen and (max-width: 600px) {
+			@media screen and (max-width: 670px) {
 				.header {
 				   width: 100%;
 				   font-size: 0.9em;
@@ -530,6 +541,8 @@
 				}.button_menu {
 				   font-size: 0.8em;
 				   padding-top: 2.3%;
+				}.sobre_baixo_description {
+					padding: 5% 2% 0 2%;
 				}
 				
 				
@@ -559,6 +572,14 @@
 					font-size: 0.9em;
 					
 				}
+				.sobre_baixo_description{
+					padding: 0% 10% 0% 2%;
+					height: 240px;
+				}
+				.sobreTexto{
+					margin: 0% 0% 0% 0%;
+					height: 240px;
+				}
 			}
 			@media screen and (max-width: 380px) {
 				.header {
@@ -569,6 +590,7 @@
 					font-size: 0.6em;
 					padding-top: 4.5%;
 				}
+
 			}
 			@media screen and (max-width: 350px) {
 				.button_menu {

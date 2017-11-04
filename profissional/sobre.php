@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Marlon Braga</title>
-		<link rel="shortcut icon" href="img/office_work2.ico">
+		<link rel="shortcut icon" href="img/logo_Overreal.ico">
 		<link rel="stylesheet" href="ImageGallery.css">
 		<link rel="stylesheet" href="post.css">
 		<link rel="stylesheet" href="styles.css">
@@ -100,7 +100,8 @@
 				//$("#detalhes_uerj").slideToggle();
 				$("#detalhes_cefet2").slideToggle();
 				$("#detalhes_senai").slideToggle();
-				//$("#detalhes_ydreams").slideToggle();
+				$("#detalhes_ydreams").slideToggle();
+				//$("#detalhes_overreal").slideToggle();
 
 				$("#detalhes_cp2_button").click(function(){
 					$("#detalhes_cp2").slideToggle();
@@ -120,6 +121,9 @@
 				$("#detalhes_ydreams_button").click(function(){
 					$("#detalhes_ydreams").slideToggle();
 				});
+				$("#detalhes_overreal_button").click(function(){
+					$("#detalhes_overreal").slideToggle();
+				});
 
 			});
 		</script>
@@ -135,16 +139,13 @@
 					<a href="index.php?p=sobre#" class="a">					
 						<div class="about sobre" style="float:right;">
 							<div class="inner_sobre" >
-								<img src="img/Marlon.jpg" class="fotoPerfil"/>
+								<img src="img/MarlonBraga.png" class="fotoPerfil"/>
 								<p class="sobreTexto">
-									&emsp;Técnico em Informática e Bacharel em Ciência da Computação pela UERJ.
-									É entusiasta da Realidade Virtual e Gameficação.
-									Trabalha na YDreams desenvolvendo sistemas interativos. Hoje, continua explorando novos recursos e aplicações imersivas.
+								<iframe src="description.html" style="border:0px; width:100%"></iframe>
 								</p>
 							</div>
 						</div>
 					</a>
-
 					
 					<div>
 						<h4></h4>
@@ -311,45 +312,33 @@
 							<div style='padding:40px; width:300px; border:0px solid black; float:left;'>
 								
 									<table>
-										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>WEB</h4></td></tr>
+										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>PROFICIÊNCIA</h4></td></tr>
+
+										<tr><td class="skills">Unity</td>				<td><div class="loading_bar_skills"><div style="width:85%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">C#</td>					<td><div class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">Vuforia</td>				<td><div class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">ARToolKit</td>			<td><div class="loading_bar_skills"><div style="width:35%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">GearVR</td>				<td><div class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">CardBoard</td>			<td><div class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td style="height:20px;" colspan="2"> </td></tr>
 										<tr><td class="skills">PHP</td>					<td><div class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">HTML 5</td>				<td><div class="loading_bar_skills"><div style="width:95%;" class="loading_bar_skills_level"></div></div></td></tr>
 										<tr><td class="skills">CSS 3</td>				<td><div class="loading_bar_skills"><div style="width:101%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Design Responsivo</td>	<td><div class="loading_bar_skills"><div style="width:90%;" class="loading_bar_skills_level"></div></div></td></tr>
 										<tr><td class="skills">SQL</td>					<td><div class="loading_bar_skills"><div style="width:60%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Javascript</td>			<td><div class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">JQuery</td>				<td><div class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Ajax</td>				<td><div class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">JS</td>					<td><div class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
+										
 									</table>
 							</div>
 							<div style='padding:40px; width:300px; border:0px solid black; float: left;'>
 								
 									<table>
-										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>Games, RV e RA</h4></td></tr>
-										<tr><td class="skills">Unity</td><td><div 	class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">C#</td><td><div 		class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Vuforia</td><td><div class="loading_bar_skills"><div style="width:70%;" class="loading_bar_skills_level"></div></div></td></tr>
-									
+										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>CONHECIMENTOS</h4></td></tr>
+										<tr><td class="skills">Games</td><td><div 			class="loading_bar_skills"><div style="width:90%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">VR</td><td><div 			class="loading_bar_skills"><div style="width:90%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">AR</td><td><div 			class="loading_bar_skills"><div style="width:75%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">Mobile</td><td><div 			class="loading_bar_skills"><div style="width:75%;" class="loading_bar_skills_level"></div></div></td></tr>
 										<tr><td style="height:20px;" colspan="2"> </td></tr>
-										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>Mobile</h4></td></tr>
-										<tr><td class="skills">Android(Java, XML)</td><td><div 	class="loading_bar_skills"><div style="width:25%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Xamarim(C#)</td><td><div 		class="loading_bar_skills"><div style="width:20%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Cordova(CSS)</td><td><div 		class="loading_bar_skills"><div style="width:50%;" class="loading_bar_skills_level"></div></div></td></tr>
-									</table>
-							</div>
-							<div style='padding:40px; width:300px; border:0px solid black; float: left;'>
-								
-									<table>
-										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>Eng & Arch</h4></td></tr>
-										<tr><td class="skills">Scrum</td><td><div 			class="loading_bar_skills"><div style="width:95%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">UML</td><td><div 			class="loading_bar_skills"><div style="width:75%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Desing Patterns</td><td><div class="loading_bar_skills"><div style="width:30%;" class="loading_bar_skills_level"></div></div></td></tr>
-
-										<tr><td style="height:20px;" colspan="2"> </td></tr>
-
-										<tr><td colspan="2"><h4 style='text-align:center; font-size:18px; font-weight:bold; color:#459A22;'>Banco de Dados</h4></td></tr>
-										<tr><td class="skills">MySQL</td><td><div 	class="loading_bar_skills"><div style="width:95%;" class="loading_bar_skills_level"></div></div></td></tr>
-										<tr><td class="skills">Postgre</td><td><div class="loading_bar_skills"><div style="width:80%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">Version Control</td><td><div class="loading_bar_skills"><div style="width:40%;" class="loading_bar_skills_level"></div></div></td></tr>
+										<tr><td class="skills">Scrum</td><td><div 			class="loading_bar_skills"><div style="width:90%;" class="loading_bar_skills_level"></div></div></td></tr>
 									</table>
 							</div>
 						</h4>
@@ -386,7 +375,7 @@
 									<img class='img_formacao' src='img/cts.png'/>
 									<div class="inf_formacao">
 										<div class="inf_experiencia_titulo">
-											Estágio Nível Superior<br>
+											Programador<br>
 											Centro de Tecnologia do SENAI
 										</div>
 									</div>
@@ -405,26 +394,45 @@
 
 
 							<div>
-								<div id='detalhes_ydreams_button'>
-									<img class='img_formacao' src='img/ydreams.png'/>
+							<div id='detalhes_ydreams_button'>
+								<img class='img_formacao' src='img/ydreams.png'/>
+								<div class="inf_formacao">
+									<div class="inf_experiencia_titulo">
+										Auxiliar de desenvolvimento<br>
+										YDreams Brasil
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style='clear: left;'></div>
+						<div class="detalhes " id="detalhes_ydreams">
+							<p>
+								<b>PROGRAMAÇÃO</b><br>
+								Desenvolvimento de Sistemas Interativos. Projetos realizados na engine UNITY3D e linguagem de programação C#.
+							</p>
+						</div>
+						<div style='clear: left;'></div>
+
+						<div>
+								<div id='detalhes_overreal_button'>
+									<img class='img_formacao' src='img/overreal.png'/>
 									<div class="inf_formacao">
 										<div class="inf_experiencia_titulo">
-											Auxiliar de desenvolvimento<br>
-											YDreams Brasil
+											CEO, Fundador<br>
+											OverReal - VR|AR Development
 										</div>
 									</div>
 								</div>
 							</div>
 							<div style='clear: left;'></div>
-							<div class="detalhes " id="detalhes_ydreams">
+							<div class="detalhes " id="detalhes_overreal">
 								<p>
-									<b>PROGRAMAÇÃO</b><br>
-									Desenvolvimento de Sistemas Interativos. Projetos realizados na engine UNITY3D e linguagem de programação C#.
+									<b>PROGRAMAÇÃO e GESTÃO</b><br>
+									Gerenciamento de Programadores e Designers, Levantamento de requisitos, Orçamento de projeto,
+									desenvolvimento de Sistemas Interativos, Simuladores Imersivos, Maquetes em Realidade Aumentada e outras soluções em Mobile, Realidade Virtual e Aumentada.
 								</p>
 							</div>
 							<div style='clear: left;'></div>
-
-
 
 						</h4>
 					</div>
@@ -450,10 +458,10 @@
 							</a>
 						</div>
 						<div class="parceiros">
-							<a target="_blank" href="https://www.linkedin.com/in/amanda-salles-21b07337?authType=NAME_SEARCH&authToken=5TaG&locale=pt_BR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A128547959%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1458320313332%2Ctas%3Aamanda">
-								<img class='img_interesse' alt="Gameficação" src='img/sobre/amanda.jpg'/>
+							<a target="_blank" href="https://pedropaschoal.carbonmade.com/">
+								<img class='img_interesse' alt="Gameficação" src='img/sobre/pedro.jpg'/>
 								<p style="color:#111; font-size: 25px; font-weight: normal; text-align:center;">
-									Amanda Salles<br>
+									Pedro Paschoal<br>
 									<font style='font-size: 13px; font-weight: lighter;'>Design 3D</font>
 								</p>
 							</a>

@@ -36,7 +36,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Marlon Braga</title>
-		<link rel="shortcut icon" href="img/office_work2.ico">
+		<link rel="shortcut icon" href="img/logo_Overreal.ico">
 		<link rel="stylesheet" href="ImageGallery.css">
 		<link rel="stylesheet" href="post.css">
 		<link rel="stylesheet" href="styles.css">
@@ -133,13 +133,9 @@
 					<a href="index.php?p=sobre#" class="a">
 						<div class="sobre about" style="float:right; margin-left: 20px;">
 							<div class="inner_sobre" >
-								<img src="img/Marlon.jpg" class="fotoPerfil"/>
+								<img src="img/MarlonBraga.png" class="fotoPerfil"/>
 								<p class="sobreTexto">
-									&emsp;Técnico em Informática e Bacharel em Ciência da Computação pela UERJ.
-									
-									É entusiasta da Realidade Virtual e Gameficação.
-									
-									Trabalhou no SENAI no desenvolvimento de simuladores industriais. Hoje, continua explorando novos recursos e aplicações imersivas.
+								<iframe src="description.html" style="border:0px; width:100%"></iframe>
 								</p>
 							</div>
 						</div>
